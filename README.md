@@ -16,7 +16,7 @@ NOTE: For macOS Big Sur and above, scripting additions needs elevated privileges
 $ rm -f "${HOME}"/.{yabai,skhd}rc
 
 # Install configs
-rm -f "${HOME}"/.config/yabai
+rm -rf "${HOME}"/.config/yabai
 git clone https://github.com/jaybonthius/yabai-configs.git "${HOME}"/.config/yabai
 ```
 
