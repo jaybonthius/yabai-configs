@@ -81,8 +81,7 @@ shift + cmd - 2 : /usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E9 36
 
 shift + cmd - h : /usr/local/bin/lunar ddc external INPUT_SOURCE 4369
 shift + cmd - u : /usr/local/bin/lunar ddc external INPUT_SOURCE 4379
-#not sure
-shift + cmd - d : /usr/local/bin/lunar ddc external INPUT_SOURCE 4369
+shift + cmd - d : /usr/local/bin/lunar ddc external INPUT_SOURCE 4367
 
 alt + shift + cmd - h : /usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 17
 alt + shift + cmd - u : /usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 27
