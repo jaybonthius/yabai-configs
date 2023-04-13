@@ -72,18 +72,18 @@ shift + lctrl + alt - r : \
 
 # Make window native fullscreen
 alt - f         : yabai -m window --toggle zoom-fullscreen
-shift + alt - f : yabai -m window --toggle native-fullscreen
+shift + alt - f : yabai -m window --toggle nsative-fullscreen
 
 # Picture by picture
 
-shift + cmd - 1 : "/usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E9 0
-shift + cmd - 2 : "/usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E9 36
+shift + cmd - 1 : /usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E9 0
+shift + cmd - 2 : /usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E9 36
 
-shift + cmd - h : "/usr/local/bin/lunar ddc external INPUT_SOURCE 4369
-shift + cmd - u : "/usr/local/bin/lunar ddc external INPUT_SOURCE 4379
+shift + cmd - h : /usr/local/bin/lunar ddc external INPUT_SOURCE 4369
+shift + cmd - u : /usr/local/bin/lunar ddc external INPUT_SOURCE 4379
 #not sure
-shift + cmd - d : "/usr/local/bin/lunar ddc external INPUT_SOURCE 4369
+shift + cmd - d : /usr/local/bin/lunar ddc external INPUT_SOURCE 4369
 
-alt + shift + cmd - h : "/usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 17
-alt + shift + cmd - u : "/usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 27
-alt + shift + cmd - d : "/usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 15
+alt + shift + cmd - h : /usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 17
+alt + shift + cmd - u : /usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 27
+alt + shift + cmd - d : /usr/local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 15
