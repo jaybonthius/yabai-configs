@@ -73,3 +73,17 @@ shift + lctrl + alt - r : \
 # Make window native fullscreen
 alt - f         : yabai -m window --toggle zoom-fullscreen
 shift + alt - f : yabai -m window --toggle native-fullscreen
+
+# Picture by picture
+
+shift + cmd - 1 : /Users/jaybonthius/.local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E9 36
+shift + cmd - 2 : /Users/jaybonthius/.local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E9 36
+
+shift + cmd - h : /Users/jaybonthius/.local/bin/lunar ddc external INPUT_SOURCE 4369
+shift + cmd - u : /Users/jaybonthius/.local/bin/lunar ddc external INPUT_SOURCE 4379
+#not sure
+shift + cmd - d : /Users/jaybonthius/.local/bin/lunar ddc external INPUT_SOURCE 4369
+
+alt + shift + cmd - h : /Users/jaybonthius/.local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 17
+alt + shift + cmd - u : /Users/jaybonthius/.local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 27
+alt + shift + cmd - d : /Users/jaybonthius/.local/bin/lunar ddc external MANUFACTURER_SPECIFIC_E8 15
